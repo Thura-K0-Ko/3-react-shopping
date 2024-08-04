@@ -16,7 +16,7 @@ const ProductRating = ({ rate }) => {
   // }
 
   return (
-    <div className=" mt-auto flex gap-1">
+    <div className=" flex gap-1">
       {numbers.map((num) => (
         <svg
           key={num}

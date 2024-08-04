@@ -4,10 +4,12 @@ import MyCart from "../pages/MyCart.jsx";
 import ProductDetail from "../pages/ProductDetail.jsx";
 import { createBrowserRouter } from "react-router-dom";
 import MainLayout from "../components/MainLayout.jsx";
+import ErrorPage from "../pages/ErrorPage.jsx";
 const router = createBrowserRouter([
   {
     path: "/",
     element: <MainLayout />,
+    errorElement:<ErrorPage/>,
     children: [
       {
         path: "/",
